@@ -10,7 +10,7 @@ routes.get("/", function(req, res) {
     var object = {
       burgers: data
     };
-    console.log(object);
+
     res.render("index", object);
   });
 });
